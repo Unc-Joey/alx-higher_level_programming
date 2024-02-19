@@ -1,12 +1,6 @@
 #!/usr/bin/python3
-def add(a, b):
-    """My addition function
-
-    Args:
-        a: first interger
-        b:second interger
-
-    Returns:
-        The return value. a + b
-    """
-    return (a + b)
+if _name_ == "_main_":
+    from add_0 import add
+    a=1
+    b=2
+    print("{} + {} = {}".formart(a, b, add(a, b)))
